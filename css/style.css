@@ -4,7 +4,7 @@
 
 body    {
     font-size: 12px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     line-height: 16px;  
     background-color: #daf7f6;
     color: #3b3b3b;
@@ -110,7 +110,9 @@ main{
 
 
 .time .cook {
-    border: 1px solid #3b3b3b;
+    border-width: 0 1px;
+    border-style:  solid;
+    border-color: #3b3b3b;
 }
 
 
@@ -119,10 +121,46 @@ main{
 }
 
 .time strong   {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
+.columns    {
+    overflow: auto;
+}
 
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.ingredients    {
+    float: left;
+    width: 205px;
+    margin-right: 15px;
+}
+
+.recipe h3  {
+    font-weight: bold;
+    padding: 6px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #3b3b3b;
+    font-family: 'Montserrat, sans-serif';
+    color:#f16059;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.ingredients ul {
+    padding-left: 15px;
+    line-height: 24px;
+    list-style-type: square; 
+}
+
+.directions ol{
+    padding-left: 15px;
+    line-height: 22px;
+}
 
 
 
